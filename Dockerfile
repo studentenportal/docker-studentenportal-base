@@ -1,6 +1,6 @@
 # This file creates a "studentenportal/base" image with all studentenportal
 #  dependencies.
-FROM python:3.7
+FROM python:3.9
 
 RUN apt-get update && apt-get -y install \
     build-essential gcc g++ \
